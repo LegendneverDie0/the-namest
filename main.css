@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.header {
+    padding-top: 22px;
+    background-color: #F3D7B7;
+}
+
+
+.container {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+
+.header__link {
+    color: #333333;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color 0.6s ease-in-out;
+}
+
+
+.header__link:hover {
+    color: red;
+}
+.hero {
+    background-color: #F3D7B7;
+    padding-top: 130px;
+    padding-bottom: 257px;
+}
+
+.hero__textbox {
+    width: 464px;
+}
+
+.hero__title {
+    color: #000000;
+    font-family: "Roboto";  
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.hero__text {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 47px 0;
+}
+.hero__btn {
+    border-radius: 100px;
+    width: 197px;
+    background: rgb(10, 119, 95);
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 16px 0;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+.hero__btn:hover {
+    background-color: red;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__right {
+    position: relative;
+}
+.hero {
+    background-color: #F3D7B7;
+    padding-top: 130px;
+    padding-bottom: 257px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__textbox {
+    width: 464px;
+}
+
+.hero__title {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.hero__text {
+    color: rgb(0,0,0);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 47px 0;
+}
+
+.hero__btn {
+    border-radius: 100px;
+    width: 197px;
+    background: rgb(10, 119, 95);
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 16px 0;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+.hero__btn:hover {
+    background-color: red;
+}
+
+.hero__right {
+    position: relative;
+}
+
+.hero__img {
+    width: 540px;
+    border-radius: 8px;
+}
+.hero__right {
+    position: relative;
+}
+
+.hero__img {
+    width: 540px;
+    border-radius: 8px;
+
+}
+
+    .hero__stamp {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    pointer-events: none;
+}
+.hero__stamp {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    pointer-events: none;
+
+
+    animation: rotateStamp 12s linear infinite;
+}
+
+
+@keyframes rotateStamp {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.collection{
+    padding: 50px 0;
+    background-color: #F8F8F2;
+}
+.collection__textbox{
+    width: 454px;
+}
+.collection__heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: #333333;
+}
+.collection__text{
+    color: #333333;
+    font-size: 22px;
+}
+.collection__title{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.collection__card{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.collection__rasm{
+    transition: 0.5s ease-in-out;
+}
+.collection__rasm:hover{
+   transform: scale(1.2);
+}
+.footer {
+    background: #f3d7b7;
+    padding: 40px 0;          
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.social img {
+    width: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+    color: #333;
+}
+
+
+
+.navbar {
+    background: #d8b892;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    background: #e9d0b5;
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-img{
+    width: 400px;
+    border-radius: 8px;
+}
+
+.hero .text{
+    max-width: 450px;
+}
+
+.commitment{
+    background: #ffffff;
+    padding: 60px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.commitment-img{
+    width: 300px;
+    border-radius: 100%;
+}
+
+.commitment-text {
+    max-width: 450px;
+}
+
+.quality{
+    background: #d8b892;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.quality-img{
+    width: 350px;
+    border-radius: 8px;
+}
+
+footer{
+    background: rgba(243, 215, 183, 1);
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.btre{
+color: #f6f6f6;
+}
+.nav-links{
+    color: #000000;
+}
+
+
+
+
+.hero_{
+    width: 1445px;
+    height: 740px;
+
+}
+.imager{
+    margin-top: 160px;
+}
+.dd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 320px;
+}
+.hero_title{
+    margin-bottom: 64px;
+}
+
+
+
+._hero_{
+    width: 1550px;
+    height: 510px;
+    background-color: #C99B67;
+    margin-left:;
+
+}
+._imager{
+     width: 480px;
+     margin-top: 30px;
+     height: 450px;
+}
+._dd{
+    display: flex;
+    align-items: center;
+    gap: 320px;
+}
+._hero_title{
+    margin-bottom: 64px;
+    color: white;
+}
+._hero_text{
+    color: white;
+}
+
